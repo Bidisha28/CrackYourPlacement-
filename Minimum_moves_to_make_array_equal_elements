@@ -1,0 +1,10 @@
+class Solution:
+    def minMoves(self, nums: List[int]) -> int:
+        '''k=len(nums)-1
+        c=0
+        e=nums[0]
+        if nums.count(e)==k+1:
+            return c
+        else:
+            while(nums.count(e)!=k+1):'''
+        return sum(nums)-min(nums)*len(nums)
